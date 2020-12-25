@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T07:18:07.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="foHY-VGyRmRe5bpXe3Mc" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T08:08:26.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="CdnYS_mpDeItHH06S2HL" version="14.1.2" type="github">
   <diagram id="eg0OOWS5u3Eq4Op8deKR" name="Page-1">
-    <mxGraphModel dx="528" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="590" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0_EYBNdmRiKdI7s5gTWB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jkjiSasW9flsP1HJkbxI-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="jkjiSasW9flsP1HJkbxI-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+&amp;nbsp;openProject()&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="280" width="220" height="120" as="geometry" />
+          <mxGeometry x="100" y="192" width="220" height="120" as="geometry" />
         </mxCell>
         <mxCell id="jkjiSasW9flsP1HJkbxI-6" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" parent="jkjiSasW9flsP1HJkbxI-5" vertex="1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
@@ -13,15 +18,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jkjiSasW9flsP1HJkbxI-8" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;openProject&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;loadBackGroundState()&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2nd&lt;/td&gt;&lt;td&gt;loadXmlDocumentTo3D()&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="60" y="330" width="180" height="60" as="geometry" />
+          <mxGeometry x="120" y="242" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0_EYBNdmRiKdI7s5gTWB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0_EYBNdmRiKdI7s5gTWB-1" target="0_EYBNdmRiKdI7s5gTWB-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0_EYBNdmRiKdI7s5gTWB-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 6px ; text-align: center&quot;&gt;&lt;b&gt;Component&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;+ loadXmlDocumentTo3D()&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="295" width="180" height="90" as="geometry" />
+          <mxGeometry x="90" y="340" width="240" height="125" as="geometry" />
         </mxCell>
         <mxCell id="0_EYBNdmRiKdI7s5gTWB-2" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="0_EYBNdmRiKdI7s5gTWB-1">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="0_EYBNdmRiKdI7s5gTWB-3" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;loadXmlDocumentTo3D&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;removeRedundentPanels()&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2nd&lt;/td&gt;&lt;td&gt;bind3dConfigXmlToTreeList()&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="110" y="395" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0_EYBNdmRiKdI7s5gTWB-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;DotNetOsgViewContainer&lt;/b&gt;&lt;/p&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="346" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0_EYBNdmRiKdI7s5gTWB-7" value="+ ReleaseAll()&#xa;+ SetWinHandle()&#xa;+ Start3dRendering()&#xa;+ SetPickMode()&#xa;+ LoadProjectFile()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="380" y="372" width="180" height="84" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
